@@ -1,0 +1,280 @@
+[QuickStartApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[QuickStartApp | INFO] Creating directory '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/course_id'...
+[QuickStartApp | INFO] Copying example from the user guide...
+[QuickStartApp | INFO] Generating example config file...
+[QuickStartApp | INFO] Done! The course files are located in '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/course_id'.
+    
+    To get started, you can edit the source notebooks located in:
+    
+        /home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/course_id/source/ps1
+    
+    Once you have edited them to your satisfaction, you can create
+    the student version by running `nbgrader assign ps1` from the
+    '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/course_id' directory.
+    
+    For further details, please see the full nbgrader documentation at:
+    
+        https://nbgrader.readthedocs.io/
+    
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=e2b0af27aaf2f8c2b8b8e32d0df5c0359efffd3cce5ae4ba
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-21176-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=e2b0af27aaf2f8c2b8b8e32d0df5c0359efffd3cce5ae4ba
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/home/stvogt/.anaconda/envs/edu/lib/python3.7/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 65, in list_released_assignments
+        assignments = lister.start()
+      File "/home/stvogt/.anaconda/envs/edu/lib/python3.7/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/home/stvogt/.anaconda/envs/edu/lib/python3.7/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/home/stvogt/.anaconda/envs/edu/lib/python3.7/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/home/stvogt/.anaconda/envs/edu/lib/python3.7/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=6a7fafa09ffa4e22780ec6836263623b8e413d50b0074ff2
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-21323-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=6a7fafa09ffa4e22780ec6836263623b8e413d50b0074ff2
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] No notebooks were matched in '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./tp-00'
+[NotebookApp | ERROR] No notebooks were matched by '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./tp-00'
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Creating new notebook in /course_id/source/tp-00
+[NotebookApp | INFO] Kernel started: cbabecf2-6387-480e-b667-e51f8abf925f
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cbabecf2-6387-480e-b667-e51f8abf925f
+[NotebookApp | INFO] Saving file at /course_id/source/tp-00/Untitled.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/course_id/source/ps1/jupyter.png (127.0.0.1) 1.52ms
+[NotebookApp | INFO] Kernel started: a25d875f-a6e1-45fe-96b9-7ee30e04127a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a25d875f-a6e1-45fe-96b9-7ee30e04127a
+[NotebookApp | INFO] Saving file at /course_id/source/ps1/problem1.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | INFO] Validating '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/course_id/source/ps1/problem1.ipynb'
+[NotebookApp | INFO] Executing notebook with kernel: python3
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Saving file at /course_id/source/ps1/problem1.ipynb
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] No notebooks were matched in '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./ps1'
+[NotebookApp | ERROR] No notebooks were matched by '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./ps1'
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Starting buffering for a25d875f-a6e1-45fe-96b9-7ee30e04127a:c57878fc91d7467490d804bf09e8f40f
+[NotebookApp | INFO] Starting buffering for cbabecf2-6387-480e-b667-e51f8abf925f:2ad00a1201a44a588fead3b5b5e67c00
+[QuickStartApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[QuickStartApp | INFO] Creating directory '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/tests_fq3'...
+[QuickStartApp | INFO] Copying example from the user guide...
+[QuickStartApp | INFO] Generating example config file...
+[QuickStartApp | INFO] Done! The course files are located in '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/tests_fq3'.
+    
+    To get started, you can edit the source notebooks located in:
+    
+        /home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/tests_fq3/source/ps1
+    
+    Once you have edited them to your satisfaction, you can create
+    the student version by running `nbgrader assign ps1` from the
+    '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/tests_fq3' directory.
+    
+    For further details, please see the full nbgrader documentation at:
+    
+        https://nbgrader.readthedocs.io/
+    
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8889/?token=1cdedb25b6cab2012b6d309b3c3132adb4ac8d4a477825b1
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-22823-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=1cdedb25b6cab2012b6d309b3c3132adb4ac8d4a477825b1
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Notebook tests_fq3/source/ps1/problem1.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/tests_fq3/source/ps1/jupyter.png (127.0.0.1) 1.83ms
+[NotebookApp | INFO] Kernel started: 943af1f8-8ce1-4ee3-bc0a-be6663da1af5
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 943af1f8-8ce1-4ee3-bc0a-be6663da1af5
+[NotebookApp | INFO] Saving file at /tests_fq3/source/ps1/problem1.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | INFO] Validating '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/tests_fq3/source/ps1/problem1.ipynb'
+[NotebookApp | INFO] Executing notebook with kernel: python3
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | INFO] Kernel shutdown: 943af1f8-8ce1-4ee3-bc0a-be6663da1af5
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 2 kernels
+[NotebookApp | INFO] Kernel shutdown: cbabecf2-6387-480e-b667-e51f8abf925f
+[NotebookApp | INFO] Kernel shutdown: a25d875f-a6e1-45fe-96b9-7ee30e04127a
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=ebfc7d51fe48a6c9dfb273bcce89de95b6099bf6ce03edb8
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-23613-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=ebfc7d51fe48a6c9dfb273bcce89de95b6099bf6ce03edb8
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Notebook tests_fq3/release/ps1/problem1.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/tests_fq3/release/ps1/jupyter.png (127.0.0.1) 0.99ms
+[NotebookApp | INFO] Kernel started: a102d29a-1a94-415a-b499-263430325f9a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a102d29a-1a94-415a-b499-263430325f9a
+[NotebookApp | INFO] Starting buffering for a102d29a-1a94-415a-b499-263430325f9a:727ac270b19d4b29856b69ce9c36f05b
+[NotebookApp | INFO] Kernel restarted: a102d29a-1a94-415a-b499-263430325f9a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a102d29a-1a94-415a-b499-263430325f9a
+[NotebookApp | INFO] Restoring connection for a102d29a-1a94-415a-b499-263430325f9a:727ac270b19d4b29856b69ce9c36f05b
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Starting buffering for a102d29a-1a94-415a-b499-263430325f9a:727ac270b19d4b29856b69ce9c36f05b
+[NotebookApp | INFO] Kernel restarted: a102d29a-1a94-415a-b499-263430325f9a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a102d29a-1a94-415a-b499-263430325f9a
+[NotebookApp | INFO] Restoring connection for a102d29a-1a94-415a-b499-263430325f9a:727ac270b19d4b29856b69ce9c36f05b
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] 302 GET /notebooks/tests_fq3/source/ps1/jupyter.png (127.0.0.1) 1.49ms
+[NotebookApp | INFO] Kernel started: 86fc1dce-cfb7-44f8-a507-9e8b465aa7d5
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 86fc1dce-cfb7-44f8-a507-9e8b465aa7d5
+[NotebookApp | INFO] Saving file at /tests_fq3/release/ps1/problem1.ipynb
+[NotebookApp | WARNING] Notebook tests_fq3/autograded/pablo/ps1/problem1.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/tests_fq3/autograded/pablo/ps1/jupyter.png (127.0.0.1) 0.87ms
+[NotebookApp | INFO] Kernel started: d7c17033-dd94-4850-bd33-2ebb1b218b15
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel d7c17033-dd94-4850-bd33-2ebb1b218b15
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] No notebooks were matched in '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./test_a'
+[NotebookApp | ERROR] No notebooks were matched by '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./test_a'
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] No notebooks were matched in '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./test_a'
+[NotebookApp | ERROR] No notebooks were matched by '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./test_a'
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] No notebooks were matched in '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./test_a'
+[NotebookApp | ERROR] No notebooks were matched by '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./test_a'
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] No notebooks were matched in '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./test_a'
+[NotebookApp | ERROR] No notebooks were matched by '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./test_a'
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Starting buffering for d7c17033-dd94-4850-bd33-2ebb1b218b15:d36063b6248c46f8b14acf87862a3603
+[NotebookApp | INFO] Starting buffering for 86fc1dce-cfb7-44f8-a507-9e8b465aa7d5:4788b785ae9a4e1e88cfeb005a6e40c7
+[NotebookApp | INFO] Starting buffering for a102d29a-1a94-415a-b499-263430325f9a:727ac270b19d4b29856b69ce9c36f05b
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 3 kernels
+[NotebookApp | INFO] Kernel shutdown: a102d29a-1a94-415a-b499-263430325f9a
+[NotebookApp | INFO] Kernel shutdown: 86fc1dce-cfb7-44f8-a507-9e8b465aa7d5
+[NotebookApp | INFO] Kernel shutdown: d7c17033-dd94-4850-bd33-2ebb1b218b15
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=d2143c646ead81eb1c22c79aafae04aa53315966f8b65562
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/jupyter/nbserver-27700-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=d2143c646ead81eb1c22c79aafae04aa53315966f8b65562
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] No notebooks were matched in '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./test_a'
+[NotebookApp | ERROR] No notebooks were matched by '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./test_a'
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] No notebooks were matched in '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./test_a'
+[NotebookApp | ERROR] No notebooks were matched by '/home/stvogt/cloud/docencia/pagina_web_cursos/fq3/lab/source/./test_a'
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] interrupted
